@@ -1,0 +1,5 @@
+npm install --save bootstrap@3 ----to install bootstrap locacly in project
+
+style.css to add style to be used through out the the project in common folder
+
+angular.json to add bootstrap css
