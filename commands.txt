@@ -3,3 +3,27 @@ npm install --save bootstrap@3 ----to install bootstrap locacly in project
 style.css to add style to be used through out the the project in common folder
 
 angular.json to add bootstrap css
+
+the loading starts from root component which is present in index.html page ususallay <root-app> than it goes to app.component.ts where we have selector @Component({
+  selector: 'app-root'
+  
+  all app related info goes in app component and there selectors are added in app
+  
+  Steps to create components
+  
+1)import { Component } from "@angular/core";---> importing only component part from angular core lib
+@Component({selector:'app-server', --> @ component to tell its special type script class and selector for giving name to html tag using which it will be idintified tempurl for import html
+templateUrl:'./server.component.html'
+
+})
+export class ServerComponent{ ---> normal typescript class
+
+}
+
+2) in appmodule.ts file add ur component typerscript class to so that agular identfies it
+declarations: [
+    ServerComponent,
+    AppComponent
+  ],
+and than import it like this import { ServerComponent } from './server/server.component';
+* ng g c --> ng generate component <component name> to generate ccomponent using cli 
