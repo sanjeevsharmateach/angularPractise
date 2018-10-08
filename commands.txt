@@ -27,3 +27,7 @@ declarations: [
   ],
 and than import it like this import { ServerComponent } from './server/server.component';
 * ng g c --> ng generate component <component name> to generate ccomponent using cli 
+
+_______________________________________________________________________________________________
+
+String interpolation --> anything that returns string is strin interpolation {{returnvalue}}
