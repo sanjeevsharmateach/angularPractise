@@ -31,3 +31,6 @@ and than import it like this import { ServerComponent } from './server/server.co
 _______________________________________________________________________________________________
 
 String interpolation --> anything that returns string is strin interpolation {{returnvalue}}
+propertyBinding --> to bind to a propterty of particular attribute of dom element for ex.
+button has property [disable]=true or false or <p [innertext]="value of text"
+syntax it [property]="value in quotes"
