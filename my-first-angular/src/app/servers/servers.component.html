@@ -1,3 +1,4 @@
-<button type="button" [disabled]="allowServer" class="btn btn-info btn-lg" [value]="buttonvalue">Add Server</button>
+<button type="button" [disabled]="allowServer" (click)="onClick()" class="btn btn-info btn-lg" [value]="buttonvalue">Add Server</button>
+{{serverstatus}}
 <app-server></app-server>
 <app-server></app-server>

@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent implements OnInit {
- allowServer:boolean =true;
+ allowServer:boolean =false;
+ serverstatus:string="server wasnt clicked";
+
   constructor() { }
 
   ngOnInit() {
   }
-
+onClick()
+{
+  this.serverstatus="server was created";
+}
 }
